@@ -1,8 +1,8 @@
 <template>
 <div>
   A<br>
-  <div :class="[testRoot ? 'true' : 'false']">root element</div>
-  <div :class="[testDeep ? 'true' : 'false']">deep element</div>
+  <div :class="[testRoot ? 'true' : 'false']">root element: {{ testRoot ? 'true' : 'false' }}</div>
+  <div :class="[testDeep ? 'true' : 'false']">deep element: {{ testDeep ? 'true' : 'false' }}</div>
 </div>
 </template>
 

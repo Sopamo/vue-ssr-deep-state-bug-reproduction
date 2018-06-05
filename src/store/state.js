@@ -1,5 +1,5 @@
 export default {
-  test: true,
+  testRoot: true,
   deep: {
     test: true
   }

@@ -9,9 +9,9 @@ const {
 } = createApp()
 
 store.replaceState({
-	"test": false,
+	"testRoot": false,
 	"deep": {
-		test: false
+		"test": false
 	}
 })
 
